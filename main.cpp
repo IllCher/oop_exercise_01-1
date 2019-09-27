@@ -28,7 +28,8 @@ int main() {
     cout << "Результаты вычитания:\n";
     C = A.inc(B);
     C.print();
-    
+    int a;
+    std::cin >> a;
     cout << "Результаты умножения:\n";
     C = A.mult(B);
     C.print();
